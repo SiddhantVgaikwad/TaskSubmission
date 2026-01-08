@@ -1,5 +1,7 @@
 Hey there! I am Siddhant. This is Submission of interesting problem that i solve - aggregating date-based data by day of the week with smart interpolation for missing days.
-->> What does it do?
+
+
+# What does it do?
 Ever had a dataset with dates and values, and wanted to see the pattern by day of the week? That's exactly what this does. Plus, if you're missing data for certain days, it'll fill in the gaps intelligently using interpolation.
 ->> The Problem
 Given a bunch of dates with values, I needed to:
@@ -10,7 +12,9 @@ Fill in missing days using the average of surrounding days
 
 Sounds simple, but the edge cases (like wrapping from Sunday to Monday) made it fun to solve.
 Quick Start
-->>> Clone the repo
+
+
+# Clone the repo
 git clone https://github.com/SiddhantVgaikwad/TaskSubmission
 
 # Run the tests
@@ -45,7 +49,7 @@ The tricky part was handling the circular nature of weeks (Sunday wraps back to 
 Test Cases
 I've included 6 different test cases covering:
 
-->> Basic aggregation
+# Basic aggregation
 Linear interpolation for missing days
 Multiple dates on the same day
 Negative values
